@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "url": "Server URL",
+          "fmd_id": "Device ID",
+          "password": "Password",
+          "allow_inaccurate": "Allow inaccurate locations"
+        },
+        "data_description": {
+          "url": "The address of your FMD server",
+          "fmd_id": "The device ID shown in the FMD Android app",
+          "password": "The password of your FMD account",
+          "allow_inaccurate": "Accept location fixes from less accurate providers (for example BeaconDB)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "exceptions": {
+    "invalid_auth": {
+      "message": "Invalid authentication"
+    }
+  }
+}
